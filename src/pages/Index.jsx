@@ -1,9 +1,9 @@
 function Index() {
   return (
-    <div>
-      <h1 className="text-3xl text-center">Your Blank Canvas</h1>
+    <div className="flex flex-col h-full">
+      <h1 className="text-3xl text-center">Welcome to ChatApp</h1>
       <p className="text-center">
-        Chat with the agent to start making edits.
+        Select a contact to start chatting.
       </p>
     </div>
   );
